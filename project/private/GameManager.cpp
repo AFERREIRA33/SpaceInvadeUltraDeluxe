@@ -234,7 +234,7 @@ void GameManager::StartScreen() {
             {
                 window.close();
             }
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space) || sf::Keyboard::isKeyPressed(sf::Keyboard::P)) 
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) 
             {
                 window.close();
                 Gameplay();
